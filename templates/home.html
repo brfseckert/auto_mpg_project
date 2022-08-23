@@ -1,0 +1,57 @@
+<body>
+    <div id="login-form-container">
+        <form action="predict" method="GET">
+            <div class="card" style="width: 400px">
+            <div class="card-content">
+                <div class="media">
+                <div class="is-size-4 has-text-centered">Flower Variety Classification</div>
+                </div>
+                <div class="content">
+
+                <div class="field">
+                    <p class="control">
+                    Cylinders: <input class="input" type="number" value=0 name="cylinders" id="cylid">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                    Displacement: <input class="input" type="number" value='0.00' name="displacement" id="disid">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                    Horsepower: <input class="input" type="number" value='0.00' name="horsepower" id="horid">
+                    </p>
+                </div>
+
+                <div class="field">
+                    <p class="control">
+                    Weight: <input class="input" type="number" value='0.00'  name="weight" id="weiid">
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                    Acceleration: <input class="input" type="number" value='0.00' name="acceleration" id="accid">
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                    Model Year: <input class="input" type="number" placeholder="Last 2 digits fof the year ex: 90" name="model-year" id="myid">
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                    Origin: <input class="input" type="text" placeholder="Enter the country number 1,2 or 3" name="origin" id="oriid">
+                    </p>
+                </div>
+                
+                <div class="field">
+                    <button class="button is-fullwidth is-rounded is-success">Submit</button>
+                </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>

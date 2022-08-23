@@ -1,6 +1,6 @@
 <body>
     <div id="login-form-container">
-        <form action="predict" method="GET">
+        <form action="predict" method="GET", style="text-align: center;">
             <div class="card" style="width: 400px">
             <div class="card-content">
                 <div class="media">
@@ -10,30 +10,30 @@
 
                 <div class="field">
                     <p class="control">
-                    Cylinders: <input class="input" type="number" value=0 name="cylinders" id="cylid">
+                    Cylinders: <input class="input" type="number" name="cylinders" id="cylid">
                     </p>
                 </div>
 
                 <div class="field">
                     <p class="control">
-                    Displacement: <input class="input" type="number" value='0.00' name="displacement" id="disid">
+                    Displacement: <input class="input" type="number"  name="displacement" id="disid">
                     </p>
                 </div>
 
                 <div class="field">
                     <p class="control">
-                    Horsepower: <input class="input" type="number" value='0.00' name="horsepower" id="horid">
+                    Horsepower: <input class="input" type="number"  name="horsepower" id="horid">
                     </p>
                 </div>
 
                 <div class="field">
                     <p class="control">
-                    Weight: <input class="input" type="number" value='0.00'  name="weight" id="weiid">
+                    Weight: <input class="input" type="number"   name="weight" id="weiid">
                     </p>
                 </div>
                 <div class="field">
                     <p class="control">
-                    Acceleration: <input class="input" type="number" value='0.00' name="acceleration" id="accid">
+                    Acceleration: <input class="input" type="number"  name="acceleration" id="accid">
                     </p>
                 </div>
                 <div class="field">
@@ -43,7 +43,12 @@
                 </div>
                 <div class="field">
                     <p class="control">
-                    Origin: <input class="input" type="text" placeholder="Enter the country number 1,2 or 3" name="origin" id="oriid">
+                    <label for="origin">Origin:</label>
+                    <select id="oriid" name="origin">
+                        <option value="1">India</option>
+                        <option value="2">USA</option>
+                        <option value="3">Germany</option>
+                      </select>
                     </p>
                 </div>
                 

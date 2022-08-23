@@ -4,7 +4,7 @@ from model.ml_model import predict_mpg
 
 app = Flask('app')
 
-@app.route('/home', methods=['GET'])
+@app.route('/', methods=['GET'])
 def test():
     return render_template('home.html')
 
